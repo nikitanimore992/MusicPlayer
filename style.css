@@ -36,3 +36,45 @@ nav ul li{
     font-weight: bolder;
     font-size: 1.3rem;
 }
+.container{
+    min-height: 57vh;
+    background-color: black;
+    color: white;
+    font-family: 'Verela Round',sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url('/img/play-back.jpg');
+    background-position: center;
+    background-size: cover;
+    
+}
+.bottom{
+position: sticky;
+height: 130px;
+background-color: black;
+color: white;
+bottom: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.icons{
+    margin-top: 14px;
+    /* width: 15px; */
+    
+}
+.icons i{
+    cursor: pointer;
+    width: 25px;
+    height: 20px;
+}
+#myProgressBar{
+    width: 80vw;
+} 
+.songItem{
+    
+}
