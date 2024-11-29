@@ -46,7 +46,7 @@ nav ul li{
     width: 70%;
     border-radius: 12px;
     padding: 34px;
-    background-image: url('/img/back.jpg');
+    background-image: url('/img/backk.jpg');
     background-position: center;
     background-size: cover;
     
@@ -74,7 +74,12 @@ flex-direction: column;
 }
 #myProgressBar{
     width: 80vw;
+    cursor: pointer;
 } 
+.SongItemContainer{
+    margin-top: 40px;
+
+}
 .songItem{
     height: 50px;
     display: flex;
@@ -94,8 +99,22 @@ flex-direction: column;
 }
 .timestamp{
     margin: 0 23px;
+    /* cursor: pointer; */
+}
+.timestamp i {
     cursor: pointer;
 }
+.songInfo{
+    position: absolute;
+    left: 10vw;
+    font-family: 'Verela Round',sans-serif;
 
-/* vdo timing  44:56  */
-/* https://www.youtube.com/watch?v=ANzPM5-lwXc&list=PLu0W_9lII9aiQiOwthuSvinxoflmhRxM3 */
+}
+.songInfo{
+   opacity: 0;
+   transition: opacity 1s ease-in;
+
+
+}
+
+
