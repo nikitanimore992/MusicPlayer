@@ -8,35 +8,11 @@ let myProgressBar = document.getElementById('myProgressBar');
 
 let songs = [
     {
-        songName:"Salam-e-Ishq" , 
-        filePath:"song/1.mp3",
-        coverPath:"img/Cover/1.jpg"
+        songName:"Kuch_to_bata" , 
+        filePath:"img/Kuch_to_bata.mp3",
+        coverPath:"img/Cover.jpg"
     },
-    {
-        songName:"Salam-e-Ishq" , 
-        filePath:"song/1.mp3",
-        coverPath:"img/Cover/1.jpg"
-    },
-    {
-        songName:"Salam-e-Ishq" , 
-        filePath:"song/1.mp3",
-        coverPath:"img/Cover/1.jpg"
-    },
-    {
-        songName:"Salam-e-Ishq" , 
-        filePath:"song/1.mp3",
-        coverPath:"img/Cover/1.jpg"
-    },
-    {
-        songName:"Salam-e-Ishq" , 
-        filePath:"song/1.mp3",
-        coverPath:"img/Cover/1.jpg"
-    },
-    {
-        songName:"Salam-e-Ishq" , 
-        filePath:"song/1.mp3",
-        coverPath:"img/Cover/1.jpg"
-    },
+   
 ]
 
 // audioElement.play();
